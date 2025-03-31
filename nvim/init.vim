@@ -41,3 +41,6 @@ nmap <silent><nowait> gi <Plug>(coc-implementation)
 nmap <silent><nowait> gr <Plug>(coc-references)
 
 nnoremap <C-n> :NERDTreeToggle<CR>
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"

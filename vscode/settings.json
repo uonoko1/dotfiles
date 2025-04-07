@@ -1,0 +1,20 @@
+{
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/home/linuxbrew/.linuxbrew/bin/nvim",
+  "vscode-neovim.useWSL": true,
+  "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Night Owl",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": ["usecase"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+

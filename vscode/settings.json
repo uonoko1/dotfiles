@@ -16,7 +16,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "cSpell.userWords": ["usecase"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "Consolas",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.formatOnSave": true
 }

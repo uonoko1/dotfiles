@@ -27,7 +27,7 @@ fi
 
 echo "Starting run.zsh..."
 # run.zsh をバックグラウンドで起動し、その PID をPIDファイルに記録する
-source ~/dotfiles/vscode/sync_vscode_settings/windows/run.zsh >> nohup.out 2>&1 &
+source ~/dotfiles/vscode/sync_vscode_settings/windows/run.zsh >> ~/nohup.out 2>&1 &
 new_pid=$!
 echo "$new_pid" > "$PID_FILE"
 echo "run.zsh started with PID $new_pid."

@@ -126,7 +126,15 @@
   },
   {
     "key": "ctrl+l",
-    "command": "gitlens.toggleGraph"
+    "command": "git-graph.view"
+  },
+  {
+    "key": "ctrl+w q",
+    "command": "workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
   }
 ]
 
